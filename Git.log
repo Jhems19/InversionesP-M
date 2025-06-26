@@ -1,0 +1,59 @@
+2025-06-25 00:16:37.647 [info] > git ls-files --stage -- index.html [34ms]
+2025-06-25 00:16:37.672 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [24ms]
+2025-06-25 00:16:39.158 [info] > git show --textconv :index.html [49ms]
+2025-06-25 00:16:39.159 [info] > git show --textconv HEAD:index.html [48ms]
+2025-06-25 00:16:39.159 [warning] [GitFileSystemProvider][readFile] File not found - git:/c%3A/Users/INMORTAL%20ff/Desktop/JHEMS/index.html/productosm.html/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CINMORTAL%20ff%5C%5CDesktop%5C%5CJHEMS%5C%5Cindex.html%5C%5Cproductosm.html%5C%5Cindex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-25 00:16:39.159 [info] > git ls-files --stage -- index.html [46ms]
+2025-06-25 00:16:39.161 [info] > git ls-tree -l HEAD -- index.html [44ms]
+2025-06-25 00:16:39.161 [info] fatal: Not a valid object name HEAD
+2025-06-25 00:16:39.161 [warning] [GitFileSystemProvider][stat] File not found - git:/c%3A/Users/INMORTAL%20ff/Desktop/JHEMS/index.html/productosm.html/index.html.git?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CINMORTAL%20ff%5C%5CDesktop%5C%5CJHEMS%5C%5Cindex.html%5C%5Cproductosm.html%5C%5Cindex.html%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-25 00:16:39.185 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [24ms]
+2025-06-25 00:16:46.881 [info] > git ls-files --stage -- index.html [44ms]
+2025-06-25 00:16:46.916 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [32ms]
+2025-06-25 00:16:55.636 [info] > git -c user.useConfigOnly=true commit --quiet [38ms]
+2025-06-25 00:16:55.637 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-06-25 00:16:55.662 [info] > git config --get-all user.name [24ms]
+2025-06-25 00:16:55.687 [info] > git config --get-all user.email [24ms]
+2025-06-25 00:16:55.691 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-25 00:16:55.715 [info] > git config --get commit.template [26ms]
+2025-06-25 00:16:55.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [25ms]
+2025-06-25 00:16:55.715 [warning] [Git][getBranch] No such branch: main
+2025-06-25 00:16:55.742 [info] > git status -z -uall [26ms]
+2025-06-25 00:16:55.743 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-06-25 00:16:57.963 [info] > git ls-files --stage -- index.html [42ms]
+2025-06-25 00:16:57.965 [info] > git ls-files --stage -- index.html [38ms]
+2025-06-25 00:16:57.992 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [25ms]
+2025-06-25 00:16:57.992 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [27ms]
+2025-06-25 00:16:58.018 [info] > git show --textconv :index.html [25ms]
+2025-06-25 00:16:58.019 [info] > git show --textconv :index.html [24ms]
+2025-06-25 00:16:58.940 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-25 00:16:58.981 [info] > git config --get commit.template [43ms]
+2025-06-25 00:16:58.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [41ms]
+2025-06-25 00:16:58.981 [warning] [Git][getBranch] No such branch: main
+2025-06-25 00:16:59.008 [info] > git status -z -uall [26ms]
+2025-06-25 00:16:59.009 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-06-25 00:17:19.567 [info] > git ls-files --stage -- index.html [25ms]
+2025-06-25 00:17:19.592 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [23ms]
+2025-06-25 00:17:56.143 [info] > git ls-files --stage -- index.html [25ms]
+2025-06-25 00:17:56.168 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [24ms]
+2025-06-25 00:28:39.644 [info] > git ls-files --stage -- index.html [23ms]
+2025-06-25 00:28:39.669 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [24ms]
+2025-06-25 00:31:05.926 [info] > git ls-files --stage -- index.html [26ms]
+2025-06-25 00:31:05.950 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [23ms]
+2025-06-25 00:32:11.551 [info] > git ls-files --stage -- index.html [40ms]
+2025-06-25 00:32:11.576 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [23ms]
+2025-06-25 00:32:15.635 [info] > git ls-files --stage -- index.html [26ms]
+2025-06-25 00:32:15.659 [info] > git cat-file -s d58fe399e5aa95bfd1f0bff446bcc15c5fdb508b [23ms]
+2025-06-25 00:32:44.365 [info] > git ls-files --stage -- index.html [32ms]

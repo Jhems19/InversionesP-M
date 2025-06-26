@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+/* Header */
+.header {
+  background-color: #01073b;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.logo span {
+  background: #000000;
+  padding: 0 5px;
+}
+.logo-blanca {
+  filter: brightness(0) invert(1);
+  width: 150px;
+}
+/* Navegación */
+.menu a {
+  margin-left: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.btn-cta {
+  background-color: #a80a0a;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+/* Banner */
+.banner {
+  background: url('fondoPR.jpg') no-repeat center center/cover;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.banner-content h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+.banner-content p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.btn-banner {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #080d4e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2%;
+}
+.btn-banner:hover {
+  background-color: #a80a0a;
+  color:#f4f4f4
+}
+/* Qué hacemos */
+.que-hacemos {
+  background: #f4f4f4;
+  padding: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.col {
+  max-width: 300px;
+}
+.col ul {
+  margin-top: 10px;
+}
+.col ul li {
+  margin-bottom: 5px;
+}
+
+/* Filosofía */
+.filosofia {
+  background: #00063d;
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+}
+.filosofia  h3{
+  color:#fff
+}
+.filosofia p {
+  color: #fff;
+}
+/* Contacto */
+.contacto {
+  background: #000000;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+.contacto input,
+.contacto textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.contacto button {
+  background-color: #01137c;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color:#fff
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+

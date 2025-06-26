@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fafafd;
+     height: 100%;
+  
+}
+
+.header {
+    background-color: #0b053f;
+    color: white;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    width: 150px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+    font-family: 'Segoe UI', sans-serif;
+}
+.logo-blanca {
+  filter: brightness(0) invert(1);
+  width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+.social img {
+    width: 24px;
+    margin-left: 10px;
+}
+
+.hero1 {
+background: url('fondoS.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+   }
+.contenido-hero1 {
+    position: relative;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    padding: 2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0,7);
+}
+
+.hero1 h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 3px 4px 4px #06070f;
+    color: #ffffff;
+    position: center;
+}
+
+.hero1 p {
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    color: #f7f7f7;
+    list-style: armenian;
+}
+
+.contacto {
+    color: orange;
+    font-weight: bold;
+    border: #000000;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.card {
+    background-color: #ffffff34;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10PX 4PX;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+    color: #000000;
+    text-decoration:#000000
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgb(0, 0, 0);
+}
+
+.card img {
+    width: 180px;
+    height: 120px;
+    margin-bottom: 1rem;
+    padding: 02px 05px;
+    min-height: 10vh;
+    position: relative;
+  
+}
+.nav a {
+  text-decoration: none;
+  color: #fffdfd;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #c0470f;
+
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1500px;
+  margin: 13 auto;
+  height: 130px;
+}
+.zoomable{
+    transition: transform 0.2s ease;
+    cursor: zoom-in;
+}
+.zoomed {
+   transform: scale(2);
+  transform-origin: center center;
+  cursor: zoom-out;
+}
+.menu{
+    width: 140px 0;
+    margin: 2px 1;
+    position: center;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  font-size: 0.9em;
+}
+.header {
+  background-color: #0a0230;
+  color: #fff;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header .logo {
+  font-weight: bold;
+  font-size: 1.em;
+}

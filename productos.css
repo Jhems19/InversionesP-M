@@ -1,0 +1,207 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #000;
+}
+ 
+a {
+    color: rgb(255, 255, 255);
+    min-width:200px;
+    font-size: 16px;
+    text-align:start;
+    font-family: monospace;    
+}
+
+.contenido {
+    z-index: 1;
+}
+
+
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.Logo-section {
+  margin-bottom: 25px;
+  
+}
+
+.logo {
+   width: 150px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'Segoe UI', sans-serif; 
+}
+.logo-blanca {
+  filter: brightness(0) invert(1);
+  width: 150px;
+  font-size: 1vw;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #b6320a;
+}
+
+.hero {
+  background-image: url('fondoN.png'); /* Asegúrate de que el nombre del archivo sea exactamente 'Fondo.jpeg' */
+  background-color: #1b376450;
+  color: rgb(246, 246, 247);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contenido{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 90%;
+}
+.contenido h1{
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.contenido p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: rgb(23, 209, 94);
+  color: black;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #0b3ad5;
+  color: #ccc;
+}
+.nav a {
+  text-decoration: none;
+  color: #fffdfd;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #c0470f;
+
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1500px;
+  margin: 13 auto;
+  height: 130px;
+}
+.zoomable{
+    transition: transform 0.2s ease;
+    cursor: zoom-in;
+}
+.zoomed {
+   transform: scale(2);
+  transform-origin: center center;
+  cursor: zoom-out;
+}
+.menu a {
+  
+  text-decoration: none;
+  color: #fffdfd;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.header {
+  background-color: #0a022c;
+  color: #fff;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.header .logo {
+  font-weight: bold;
+  font-size: 1.3em;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.social img {
+    width: 24px;
+    margin-left: 10px;
+}
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.9rem;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

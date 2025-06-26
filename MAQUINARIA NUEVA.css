@@ -1,0 +1,216 @@
+ .login-container {
+    background: rgb(2, 11, 65);
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 5cap #140404;
+    width: 280px;
+    border-image-width: 30%;
+
+}
+input {
+    width:100%;
+    padding:10px;
+    margin: 10px 0;
+}
+button {
+    width:  auto;
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom-color:rgb(255, 255, 255);
+    margin: 10px 0 ;
+  
+}
+
+button:hover {
+    width:auto;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding: 10px 80px;
+    border: rgb(49, 53, 255);
+    border-radius: 6px;
+    cursor:pointer;
+    justify-content: center;
+    height: auto;
+}
+
+
+    
+.hero {
+background: url('fondoS.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+    
+}
+h2 {
+    color: rgb(255, 255, 255);
+    min-width:clase;font: negrita;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0; 
+  }
+
+.contenido {
+    z-index: 1;
+}
+.blue-image-container:hover {
+    filter: blur(5px);
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 0;
+  height: 100%;
+  font-family: "segoe UI", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Logo-section {
+  margin-bottom: 35%;
+
+}
+
+.logo-blanca {
+  filter: brightness(0) invert(1);
+  width: 150px;
+}
+.logo { 
+  width: 10px 0;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px auto;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: azure;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Logo-section {
+  margin-bottom: 25px;
+  }
+
+
+.logo {
+    width: 150px 0;
+}
+.logo-blanca {
+  filter: brightness(0) invert(1);
+  width: 150px;
+}
+
+.hero {
+  background-color: #233e68;
+  color: rgb(246, 246, 247);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: auto;
+}
+.nav a {
+  text-decoration: none;
+  color: #fffdfd;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #e20f0f;
+
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1500px;
+  margin: 13 auto;
+  height: 130px;
+}
+.zoomable{
+    transition: transform 0.2s ease;
+    cursor: zoom-in;
+}
+.zoomed {
+   transform: scale(2);
+  transform-origin: center center;
+  cursor: zoom-out;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  font-size: 0.9em;
+}
+.header {
+  background-color: #0a022c;
+  color: #fff;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header .logo {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.link-about-us{
+  color:azure;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.company-name{
+  color: azure;
+}
+.company-email{
+  color: #fff;
+}
